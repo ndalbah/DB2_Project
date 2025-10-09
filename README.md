@@ -5,7 +5,7 @@ Use the script provided in order to create the following database tables:
  
  
 **PILOT**
-| column | type | size | explanation |
+| COLUMN | TYPE | SIZE | EXPLANATION |
 |:---:|:---:|:---:|:---:|
 |PILOT_ID|N|3|Pilot ID|
 |LAST_NAME|V|20|Last name|
@@ -16,7 +16,7 @@ Use the script provided in order to create the following database tables:
 **CITY**
 
 
-| column | type | size | explanation |
+| COLUMN | TYPE | SIZE | EXPLANATION |
 |:---:|:---:|:---:|:---:|
 |CITY_ID|N|3|City ID|
 |CITY_NAME|V|20|City name|
@@ -32,7 +32,7 @@ Use the script provided in order to create the following database tables:
 
 **FLIGHT**
 
-| column | type | size | explanation |
+| COLUMN | TYPE | SIZE | EXPLANATION |
 |:---:|:---:|:---:|:---:|
 |FLIGHT_ID|N|3|Flight ID|
 |PILOT_ID|N|3|Pilot ID|
