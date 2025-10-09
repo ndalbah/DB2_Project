@@ -5,6 +5,14 @@ Use the script provided in order to create the following database tables:
  
  
 **PILOT**
+| column | type | size | explanation |
+|:---:|:---:|:---:|:---:|
+|PILOT_ID|N|3|Pilot ID|
+|LAST_NAME|V|20|Last name|
+|FIRST_NAME|V|20|First name|
+|CITY_ID|N|3|City ID|
+|SALARY|N|7,2|Salary|
+
 ```
 + -----------------------------------------------------+ 
 +     COLUMN   +   TYPE   +   SIZE   +   Explanation   +
@@ -22,6 +30,12 @@ Use the script provided in order to create the following database tables:
 ```
  
 **CITY**
+
+
+| column | type | size | explanation |
+|:---:|:---:|:---:|:---:|
+|CITY_ID|N|3|City ID|
+|CITY_NAME|V|20|City name|
 ```
 + -----------------------------------------------------+ 
 +     COLUMN   +   TYPE   +   SIZE   +   Explanation   +
@@ -33,6 +47,14 @@ Use the script provided in order to create the following database tables:
 ```
 
 **PLANE**
+
+| column | type | size | explanation |
+|:---:|:---:|:---:|:---:|
+|PLA_ID|N|2|Plane ID|
+|PLA_DESC|N|3|Plane description|
+|MAX_PASSENGER|N|2|Maximum passengers|
+|CITY_ID|N|3|City ID|
+
 ``` 
 + ------------------------------------------------------------+ 
 +      COLUMN    +   TYPE   +   SIZE   +     Explanation      +
@@ -48,6 +70,17 @@ Use the script provided in order to create the following database tables:
 ```
 
 **FLIGHT**
+
+| column | type | size | explanation |
+|:---:|:---:|:---:|:---:|
+|FLIGHT_ID|N|3|Flight ID|
+|PILOT_ID|N|3|Pilot ID|
+|PLA_ID|N|2|Plane ID|
+|CITY_DEP|N|3|Departure city ID|
+|CITY_ARR|N|3|Arrival city ID|
+|DEP_DATE|D||Departure date|
+|DEP_TIME|N|4|Departure time|
+|ARR_TIME|N|4|Arrival time|
 ```
 + --------------------------------------------------------+ 
 +     COLUMN   +   TYPE   +   SIZE   +    Explanation     +
