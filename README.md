@@ -12,7 +12,8 @@ Use the script provided in order to create the following database tables:
 |FIRST_NAME|V|20|First name|
 |CITY_ID|N|3|City ID|
 |SALARY|N|7,2|Salary|
- 
+
+
 **CITY**
 
 
@@ -20,6 +21,7 @@ Use the script provided in order to create the following database tables:
 |:---:|:---:|:---:|:---:|
 |CITY_ID|N|3|City ID|
 |CITY_NAME|V|20|City name|
+
 
 **PLANE**
 
@@ -29,6 +31,7 @@ Use the script provided in order to create the following database tables:
 |PLA_DESC|N|3|Plane description|
 |MAX_PASSENGER|N|2|Maximum passengers|
 |CITY_ID|N|3|City ID|
+
 
 **FLIGHT**
 
